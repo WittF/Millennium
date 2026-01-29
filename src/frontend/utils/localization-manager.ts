@@ -43,6 +43,9 @@ import french from '../../locales/french.json';
 import turkish from '../../locales/turkish.json';
 import ukrainian from '../../locales/ukrainian.json';
 import japanese from '../../locales/japanese.json';
+import bulgarian from '../../locales/bulgarian.json';
+import danish from '../../locales/danish.json';
+import koreana from '../../locales/koreana.json';
 import { Logger } from './Logger';
 
 interface LocalizationData {
@@ -82,7 +85,9 @@ const localizationFiles: { [key: string]: LocalizationData } = {
 	turkish,
 	ukrainian,
 	japanese,
-	// Add other languages here
+	bulgarian,
+	danish,
+	koreana,
 };
 
 const GetLocalization = async () => {
